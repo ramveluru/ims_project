@@ -22,6 +22,16 @@
 	</properties>
 	<!-- Remote changes-->
 	<!-- Add Nexus server details -->
+	
+	
+	<distributionManagement>
+    <repository>
+      <id>loocsij-snapshot</id>
+      <name>Loocsij</name>
+      <url>http://www.dev-bruce.com:8081/nexus/content/repositories/snapshots/</url>
+    </repository>
+  </distributionManagement>
+	
 	<distributionManagement>
         <repository>
             <id>deployment</id>
@@ -35,13 +45,6 @@
         </snapshotRepository>
     </distributionManagement> 
 	
-	<distributionManagement>
-         <repository>
-             <id>loocsij-snapshot</id>
-             <name>Loocsij</name>
-             <url>http://www.dev-bruce.com:8081/nexus/content/repositories/snapshots/</url>
-         </repository>
-     </distributionManagement>
 	
 	<dependencies>
 		<dependency>
