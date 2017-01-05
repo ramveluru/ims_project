@@ -35,6 +35,14 @@
         </snapshotRepository>
     </distributionManagement> 
 	
+	<distributionManagement>
+         <repository>
+             <id>loocsij-snapshot</id>
+             <name>Loocsij</name>
+             <url>http://www.dev-bruce.com:8081/nexus/content/repositories/snapshots/</url>
+         </repository>
+     </distributionManagement>
+	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
