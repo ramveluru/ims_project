@@ -43,7 +43,7 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+
         <dependency>
              <groupId>org.apache.maven.plugins</groupId>
              <artifactId>maven-deploy-plugin</artifactId>
