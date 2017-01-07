@@ -21,7 +21,7 @@
 		<!-- Manju end -->	
 	</properties>
 	<!-- Remote changes-->
-	<!-- Add Nexus server details -->
+	<!-- Nexus server details -->
 	<distributionManagement>
         <repository>
             <id>nexus</id>
